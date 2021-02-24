@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <main>
-        <Title />
+        <Title content="Some Simple Title" />
       </main>
       <h1>Hello World!</h1>
       <p>React is cool!</p>
