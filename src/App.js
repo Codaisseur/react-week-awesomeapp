@@ -1,4 +1,5 @@
 import "./App.css";
+import Pokemon from "./components/Pokemon";
 
 import Title from "./components/Title";
 
@@ -7,9 +8,8 @@ function App() {
     <div className="App">
       <main>
         <Title content="Some Simple Title" />
+        <Pokemon />
       </main>
-      <h1>Hello World!</h1>
-      <p>React is cool!</p>
     </div>
   );
 }
