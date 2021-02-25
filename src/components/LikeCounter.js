@@ -10,11 +10,16 @@ export default function LikeCounter() {
     set_numLikes(numLikes + 1);
   };
 
+  const reset = () => {
+    set_numLikes(initial_numLikes);
+  };
+
   return (
     <div>
       <p>
         This post has <b>{numLikes}</b> likes!
         <button onClick={increment}>Like</button>
+        <button onClick={reset}>Reset</button>
       </p>
     </div>
   );
