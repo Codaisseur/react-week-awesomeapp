@@ -4,6 +4,15 @@ import Pokemon from "./components/Pokemon";
 import Title from "./components/Title";
 
 function App() {
+  const all_pokemon = [
+    { name: "Charizard", weight: 90 },
+    { name: "Bulbasaur", weight: 6.9 },
+    { name: "Mewtwo", weight: 122 },
+    { name: "Mega beedrill", weight: 65 },
+  ];
+
+  console.log(all_pokemon.map(pokemon => pokemon.weight));
+
   return (
     <div className="App">
       <main>
