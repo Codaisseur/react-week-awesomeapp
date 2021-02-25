@@ -20,6 +20,8 @@ export default function ArticleList() {
       );
 
       console.log("Got back:", res);
+
+      set_articles(res.data);
     }
     doSomeDataFetching();
   }, []);
