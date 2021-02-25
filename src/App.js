@@ -1,4 +1,5 @@
 import "./App.css";
+import LikeButton from "./components/LikeButton";
 import LikeCounter from "./components/LikeCounter";
 import Pokemon from "./components/Pokemon";
 
@@ -40,6 +41,7 @@ function App() {
     <main className="container my-5">
       <Title content="Some Simple Title" />
       <LikeCounter />
+      <LikeButton />
       <div className="row">
         {all_pokemon.map((pokemon, index) => (
           <div key={index} className="col-md-6 col-lg-4">
