@@ -11,7 +11,9 @@ function App() {
     { name: "Mega beedrill", weight: 65 },
   ];
 
-  console.log(all_pokemon.map(pokemon => pokemon.weight));
+  console.log(
+    all_pokemon.map(pokemon => `${pokemon.name}: ${pokemon.weight}kg`)
+  );
 
   return (
     <div className="App">
