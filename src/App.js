@@ -1,4 +1,5 @@
 import "./App.css";
+import ArticleList from "./components/ArticleList";
 import AwesomeAnimals from "./components/AwesomeAnimals";
 import LikeButton from "./components/LikeButton";
 import LikeCounter from "./components/LikeCounter";
@@ -11,6 +12,7 @@ function App() {
       <LikeCounter />
       <LikeButton />
       <AwesomeAnimals />
+      <ArticleList />
     </main>
   );
 }
