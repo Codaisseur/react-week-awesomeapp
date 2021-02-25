@@ -18,7 +18,7 @@ export default function LikeCounter() {
 
   useEffect(() => {
     console.log("The useEffect action!");
-  }, []);
+  }, [numLikes]);
 
   return (
     <div>
